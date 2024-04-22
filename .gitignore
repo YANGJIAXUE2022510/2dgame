@@ -1,0 +1,59 @@
+# 忽略Unity生成的库和引擎数据
+Library/
+Temp/
+Logs/
+build/
+
+# 忽略项目设置
+ProjectSettings/
+
+# 忽略用户特定设置
+UserSettings/
+
+# 忽略自动生成的包管理文件
+Packages/
+
+# 可选：忽略临时文件或编辑器生成的文件
+*.tmp
+*.bak
+*.unityproj
+*.DS_Store
+
+# 可选：忽略特定平台生成的文件
+# 如果你只在特定平台上开发，则可以添加相关平台的文件扩展名来进行忽略
+
+# Windows:
+# *.exe
+# *.pdb
+# *.dll
+# *.meta
+
+# macOS:
+# *.app
+# .DS_Store
+
+# Linux:
+# 
+
+# 忽略Visual Studio和Visual Studio Code生成的文件
+*.sln
+*.csproj
+*.suo
+*.sln.cache
+*.suo
+.vs/
+.vscode/
+
+# 忽略MonoDevelop和Rider生成的文件
+*.userprefs
+*.pidb
+
+# 忽略构建的日志和临时文件
+*.log
+*.apk
+*.aab
+*.unitypackage
+
+# 忽略编译生成的文件
+bin/
+obj/
